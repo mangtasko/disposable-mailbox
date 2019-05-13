@@ -111,13 +111,13 @@
             "version": "2.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:gnugat/PronounceableWord.git",
-                "reference": "60a19dc7148e92de35ea536b9f873b86365d48f0"
+                "url": "https://github.com/gnugat-legacy/PronounceableWord.git",
+                "reference": "fcdc0dc39775fa625040c37003727019657d001b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gnugat/PronounceableWord/zipball/60a19dc7148e92de35ea536b9f873b86365d48f0",
-                "reference": "60a19dc7148e92de35ea536b9f873b86365d48f0",
+                "url": "https://api.github.com/repos/gnugat-legacy/PronounceableWord/zipball/fcdc0dc39775fa625040c37003727019657d001b",
+                "reference": "fcdc0dc39775fa625040c37003727019657d001b",
                 "shasum": ""
             },
             "require": {
@@ -135,7 +135,7 @@
             ],
             "authors": [
                 {
-                    "name": "Loïc Chardonnet"
+                    "name": "Loic Chardonnet"
                 }
             ],
             "description": "A light, customizable and simple library generating random and pronounceable words without using dictionaries or Markov chains.",
@@ -150,28 +150,26 @@
         },
         {
             "name": "php-imap/php-imap",
-            "version": "3.0.6",
+            "version": "3.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barbushin/php-imap.git",
-                "reference": "d4f8ef4504dfb555857241aa7d1e414a1c229079"
+                "reference": "c0750ec4ce4e00be2e884005b2fbd94ccd64a34d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barbushin/php-imap/zipball/d4f8ef4504dfb555857241aa7d1e414a1c229079",
-                "reference": "d4f8ef4504dfb555857241aa7d1e414a1c229079",
+                "url": "https://api.github.com/repos/barbushin/php-imap/zipball/c0750ec4ce4e00be2e884005b2fbd94ccd64a34d",
+                "reference": "c0750ec4ce4e00be2e884005b2fbd94ccd64a34d",
                 "shasum": ""
             },
             "require": {
                 "ext-imap": "*",
-                "php": ">=5.5"
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.7"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.0-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "PhpImap\\": "src/PhpImap"
@@ -198,7 +196,7 @@
                 "pop3",
                 "receive emails"
             ],
-            "time": "2017-12-22T12:53:34+00:00"
+            "time": "2019-05-12T14:03:01+00:00"
         }
     ],
     "packages-dev": [],
