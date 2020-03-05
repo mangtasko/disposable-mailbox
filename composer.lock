@@ -55,16 +55,16 @@
         },
         {
             "name": "fightbulc/moment",
-            "version": "1.29.0",
+            "version": "1.32.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fightbulc/moment.php.git",
-                "reference": "bd57bba6d00dfa012e7b7b167e7006c6247ce3c8"
+                "reference": "16b63d5d0e545615daf19c6a8b24786cb170172f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fightbulc/moment.php/zipball/bd57bba6d00dfa012e7b7b167e7006c6247ce3c8",
-                "reference": "bd57bba6d00dfa012e7b7b167e7006c6247ce3c8",
+                "url": "https://api.github.com/repos/fightbulc/moment.php/zipball/16b63d5d0e545615daf19c6a8b24786cb170172f",
+                "reference": "16b63d5d0e545615daf19c6a8b24786cb170172f",
                 "shasum": ""
             },
             "require": {
@@ -104,20 +104,20 @@
                 "translation",
                 "validate"
             ],
-            "time": "2019-01-07T11:16:45+00:00"
+            "time": "2020-03-04T06:31:17+00:00"
         },
         {
-            "name": "gnugat/PronounceableWord",
+            "name": "gnugat/pronounceableword",
             "version": "2.0.0",
             "source": {
                 "type": "git",
-                "url": "git@github.com:gnugat/PronounceableWord.git",
-                "reference": "60a19dc7148e92de35ea536b9f873b86365d48f0"
+                "url": "https://github.com/gnugat-legacy/PronounceableWord.git",
+                "reference": "fcdc0dc39775fa625040c37003727019657d001b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gnugat/PronounceableWord/zipball/60a19dc7148e92de35ea536b9f873b86365d48f0",
-                "reference": "60a19dc7148e92de35ea536b9f873b86365d48f0",
+                "url": "https://api.github.com/repos/gnugat-legacy/PronounceableWord/zipball/fcdc0dc39775fa625040c37003727019657d001b",
+                "reference": "fcdc0dc39775fa625040c37003727019657d001b",
                 "shasum": ""
             },
             "require": {
@@ -135,7 +135,7 @@
             ],
             "authors": [
                 {
-                    "name": "Loïc Chardonnet"
+                    "name": "Loic Chardonnet"
                 }
             ],
             "description": "A light, customizable and simple library generating random and pronounceable words without using dictionaries or Markov chains.",
